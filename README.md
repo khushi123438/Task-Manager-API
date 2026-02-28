@@ -1,4 +1,4 @@
-**📌 Task Manager API**
+# 📌 Task-Manager API
 
 A backend-focused mini project built to understand server-side development, REST APIs, authentication, and database handling.
 This project was created as a hands-on learning exercise to:
@@ -9,14 +9,18 @@ This project was created as a hands-on learning exercise to:
 - Understand authentication middleware
 - Structure a scalable backend project
 
-**🚀 Tech Stack**
+---
+
+## 🚀 Tech Stack
 
 - Backend: Node.js
 - Framework: Express.js
 - Database: MongoDB
 - Frontend: Basic HTML, CSS, JavaScript (for API testing)
 
-**🎯 Project Objective**
+---
+
+## 🎯 Project Objective
 
 The goal of this project was not UI perfection — It was backend mastery. I built this project to:
 - Design RESTful routes
@@ -26,7 +30,9 @@ The goal of this project was not UI perfection — It was backend mastery. I bui
 - Connect backend with MongoDB
 - Understand request lifecycle & error handling
 
-**📂 Project Structure**
+---
+
+## 📂 Project Structure
 
 Task-Manager/
 │
@@ -43,8 +49,10 @@ Task-Manager/
     ├── dashboard.html
     ├── script.js
     └── style.css
-    
-**🔑 Features**
+
+---
+
+## 🔑 Features
 
 - ✅ User Authentication (Register / Login)
 - ✅ JWT-based Authorization
@@ -52,34 +60,27 @@ Task-Manager/
 - ✅ Secure Route Protection
 - ✅ Organized Backend Structure
 
-**🛠️ How to Run Locally**
+---
 
-1️⃣ Clone Repository
+## 🛠️ How to Run Locally
 
-git clone https://github.com/yourusername/Task-Manager-API.git
+1. Clone the repository
+git clone https://github.com/khushi123438/NyaySetu-Backend.git
 
-cd Task-Manager-API
-
-2️⃣ Install Backend Dependencies
-
-cd backend
-
+2. Install dependencies
 npm install
 
-3️⃣ Create .env File
+3. Create `.env` file
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
 
-Inside backend/, create a .env file:
-- MONGO_URI=your_mongodb_connection_string
-  JWT_SECRET=your_secret_key
-  PORT=5000
-
-4️⃣ Start Server
-
+4. Run the server
 npm start
 
-Server runs at: http://localhost:5000
+---
 
-📚 What I Learned
+## 📚 What I Learned
 
 - API design principles
 - Database schema modeling
@@ -87,3 +88,11 @@ Server runs at: http://localhost:5000
 - Authentication & authorization logic
 - Handling async operations
 - Real backend project structuring
+
+---
+
+## 👩‍💻 Backend Developer
+
+Khushi Pandey  
+B.Tech CSE | Backend Developer (MERN Stack)
+
