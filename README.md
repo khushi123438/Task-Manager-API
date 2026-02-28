@@ -64,18 +64,18 @@ Task-Manager/
 
 ## 🛠️ How to Run Locally
 
-1. Clone the repository
-git clone https://github.com/khushi123438/NyaySetu-Backend.git
+1. Clone the repository :
+https://github.com/khushi123438/NyaySetu-Backend.git
 
-2. Install dependencies
+2. Install dependencies :
 npm install
 
-3. Create `.env` file
+3. Create `.env` file :
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-4. Run the server
+4. Run the server :
 npm start
 
 ---
