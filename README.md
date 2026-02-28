@@ -1,4 +1,4 @@
-📌 Task Manager API
+**📌 Task Manager API**
 
 A backend-focused mini project built to understand server-side development, REST APIs, authentication, and database handling.
 This project was created as a hands-on learning exercise to:
@@ -9,17 +9,16 @@ This project was created as a hands-on learning exercise to:
 - Understand authentication middleware
 - Structure a scalable backend project
 
-🚀 Tech Stack
+**🚀 Tech Stack**
 
 - Backend: Node.js
 - Framework: Express.js
 - Database: MongoDB
 - Frontend: Basic HTML, CSS, JavaScript (for API testing)
 
-🎯 Project Objective
+**🎯 Project Objective**
 
-The goal of this project was not UI perfection — It was backend mastery.
-I built this project to:
+The goal of this project was not UI perfection — It was backend mastery. I built this project to:
 - Design RESTful routes
 - Implement authentication using middleware
 - Structure models using Mongoose
@@ -27,7 +26,8 @@ I built this project to:
 - Connect backend with MongoDB
 - Understand request lifecycle & error handling
 
-📂 Project Structure
+**📂 Project Structure**
+
 Task-Manager/
 │
 ├── backend/
@@ -44,39 +44,39 @@ Task-Manager/
     ├── script.js
     └── style.css
     
-🔑 Features
+**🔑 Features**
 
 - ✅ User Authentication (Register / Login)
 - ✅ JWT-based Authorization
-- ✅ CRUD Operations for:
- - Tasks
- - Notes
- - Goals
+- ✅ CRUD Operations for: Tasks, Notes, Goals
 - ✅ Secure Route Protection
 - ✅ Organized Backend Structure
 
-🛠️ How to Run Locally
+**🛠️ How to Run Locally**
 
 1️⃣ Clone Repository
 
 git clone https://github.com/yourusername/Task-Manager-API.git
+
 cd Task-Manager-API
 
 2️⃣ Install Backend Dependencies
 
 cd backend
+
 npm install
 
 3️⃣ Create .env File
 
 Inside backend/, create a .env file:
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+  JWT_SECRET=your_secret_key
+  PORT=5000
 
 4️⃣ Start Server
 
 npm start
+
 Server runs at: http://localhost:5000
 
 📚 What I Learned
