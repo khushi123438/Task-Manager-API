@@ -46,14 +46,14 @@ Task-Manager/
     
 🔑 Features
 
-✅ User Authentication (Register / Login)
-✅ JWT-based Authorization
-✅ CRUD Operations for:
+- ✅ User Authentication (Register / Login)
+- ✅ JWT-based Authorization
+- ✅ CRUD Operations for:
  - Tasks
  - Notes
  - Goals
-✅ Secure Route Protection
-✅ Organized Backend Structure
+- ✅ Secure Route Protection
+- ✅ Organized Backend Structure
 
 🛠️ How to Run Locally
 
