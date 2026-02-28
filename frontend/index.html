@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Khushi's Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-body">
+
+<div class="auth-container">
+  <h1 class="logo">🚀 My Productivity Space</h1>
+  <p class="quote">"Small daily improvements lead to stunning results."</p>
+
+  <div class="card">
+
+    <div id="loginForm">
+      <h2>"Welcome back. Let’s build consistency."</h2>
+
+      <input type="email" id="loginEmail" placeholder="Email" />
+      <input type="password" id="loginPassword" placeholder="Password" />
+
+      <button onclick="login()">Login</button>
+
+      <p class="toggle-text">
+        Don't have an account?
+        <span class="toggle-link" onclick="showSignup()">Sign Up</span>
+      </p>
+    </div>
+
+    <div id="signupForm" class="hidden">
+      <h2>"Create your space. Start your journey."</h2>
+
+      <input type="text" id="signupName" placeholder="Full Name" />
+      <input type="email" id="signupEmail" placeholder="Email" />
+      <input type="password" id="signupPassword" placeholder="Password" />
+
+      <button onclick="signup()">Sign Up</button>
+
+      <p class="toggle-text">
+        Already have an account?
+        <span class="toggle-link" onclick="showLogin()">Login</span>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
