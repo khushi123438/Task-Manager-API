@@ -34,6 +34,7 @@ The goal of this project was not UI perfection — It was backend mastery. I bui
 
 ## 📂 Project Structure
 
+```text
 Task-Manager/
 │
 ├── backend/
@@ -49,6 +50,7 @@ Task-Manager/
     ├── dashboard.html
     ├── script.js
     └── style.css
+```
 
 ---
 
